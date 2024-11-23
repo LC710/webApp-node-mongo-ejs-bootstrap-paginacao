@@ -8,6 +8,7 @@ Web app feito em Node.js, com MongoDB como banco de dados, EJS e Bootstrap na pa
 
 ![projeto](readMeImg/imgProjetEjs_2.png)
 
+<hr /> <br />
 
 ## Pré-requisitos
 

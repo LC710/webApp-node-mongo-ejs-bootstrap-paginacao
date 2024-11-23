@@ -1,0 +1,26 @@
+<%- include('top.ejs') %>
+
+    <form action="<%= action %>" method="POST">
+      <div class="form-group">
+
+        <label for="name"> Nome: </label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Digite o Nome" value="<%= user.name %>"/>
+
+      </div>
+
+      <div class="form-group">
+
+        <label for="age"> Idade: </label>
+        <input type="number" class="form-control" id="age" name="age" placeholder="Digite o Idade" value="<%= user.age %>"/>
+
+      </div>
+
+      <br />
+      
+      <input type="submit" value="Salvar" class="btn btn-primary" />
+
+      <a href="/" class="btn btn-danger">Cancelar</a>
+      
+    </form>
+    
+<%- include('bottom.ejs') %>
